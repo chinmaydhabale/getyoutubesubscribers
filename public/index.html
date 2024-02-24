@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Youtube Subscriber</title>
+</head>
+
+<style>
+    div {
+        background-color: azure;
+    }
+
+    div>ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-weight: 800;
+    }
+
+    .routescol {
+        color: brown;
+        font-size: large;
+    }
+</style>
+
+<body>
+    <h1>Hi i am chinmay, Welcome to getyoutubesubscriber app</h1>
+    <p>here you can get array list of youtuber Subscribers and get their names and also find a user by insert their id
+    </p>
+    <div>
+        <h2>below there are some routes, you can try and get response</h2>
+        <ul>
+            <li> GET <span class="routescol">/subscribers</span> : Here you get a Response with an array of
+                subscribers(an Object)</li>
+            <li> GET <span class="routescol">/subscribers/names</span> : Here you get a Response with an array of
+                subscribers (an Object with only two
+                fields
+                name and subscribedChannel)</li>
+            <li> GET <span class="routescol">/subscribers/:id</span> : By giving id you get Response with a
+                subscriber(an
+                object)</li>
+        </ul>
+    </div>
+</body>
+
+</html>
